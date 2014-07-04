@@ -13,4 +13,8 @@ Take a look at `config/tutter.yaml` and the official [tutter docs](https://githu
 
 ### Run 
 
-`rackup config.ru` or push to Dokku/Heroku.
+`rackup config.ru`
+
+### Deploy
+
+Push to Heroku or Dokku
