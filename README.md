@@ -1,6 +1,6 @@
 Work in progress!
 
-Reference implementation of how to run the Github robot [Tutter](https://github.com/JHaals/tutter) as a Rack app. It will be compatible with the Heroku Ruby buildpack and will run on [Dokku](https://github.com/progrium/dokku).
+Reference implementation of how to run the Github robot [Tutter](https://github.com/JHaals/tutter) as a [Rack](http://rack.github.io/) app.<br />It will be compatible with the Heroku Ruby buildpack and will run on [Dokku](https://github.com/progrium/dokku).
 
 ## Getting started
 
