@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
 gem "sinatra-reloader"
-gem "tutter"
+gem "tutter", :github => "jpettersson/tutter", :branch => "flexible-configuration"

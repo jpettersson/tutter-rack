@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/jpettersson/tutter.git
+  revision: eccca8cb3c846000ab995eaf7b60cab8a27ccf15
+  branch: flexible-configuration
+  specs:
+    tutter (0.0.1)
+      octokit (~> 2.7.1)
+      sinatra (~> 1.4.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -31,13 +40,10 @@ GEM
     sinatra-reloader (1.0)
       sinatra-contrib
     tilt (1.4.1)
-    tutter (0.0.1)
-      octokit (~> 2.7.1)
-      sinatra (~> 1.4.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   sinatra-reloader
-  tutter
+  tutter!
