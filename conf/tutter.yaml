@@ -1,6 +1,8 @@
-tutter --project your_github_user/testing \
---url https://tutter.your_domain.com \
---access-token your_token \
---github-web-url https://github.com \
---github-api-endpoint https://api.github.com \
---events issues
+projects:
+  - name: 'your_github_user/testing'
+    access_token: 'your_access_token'
+    github_site: 'https://github.com'
+    github_api_endpoint: 'https://api.github.com'
+
+    action: 'thanks'
+
