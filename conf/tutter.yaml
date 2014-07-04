@@ -1,6 +1,6 @@
 projects:
-  - name: 'your_github_user/testing'
-    access_token: 'your_access_token'
+  - name: 'jpettersson/testing'
+    access_token_env_var: 'TESTING_TOKEN'
     github_site: 'https://github.com'
     github_api_endpoint: 'https://api.github.com'
 
