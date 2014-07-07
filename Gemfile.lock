@@ -1,10 +1,10 @@
 GIT
   remote: git://github.com/jpettersson/tutter.git
-  revision: eccca8cb3c846000ab995eaf7b60cab8a27ccf15
+  revision: 652420266c48749f8cd87f8888b1f80ca4074c51
   branch: flexible-configuration
   specs:
     tutter (0.0.1)
-      octokit (~> 2.7.1)
+      octokit (~> 3.2.0)
       sinatra (~> 1.4.4)
 
 GEM
@@ -16,8 +16,8 @@ GEM
       multipart-post (>= 1.2, < 3)
     multi_json (1.10.1)
     multipart-post (2.0.0)
-    octokit (2.7.2)
-      sawyer (~> 0.5.2)
+    octokit (3.2.0)
+      sawyer (~> 0.5.3)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
