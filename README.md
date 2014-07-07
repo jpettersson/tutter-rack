@@ -17,4 +17,24 @@ Take a look at `config/tutter.yaml` and the official [tutter docs](https://githu
 
 ### Deploy
 
-Push to Heroku or Dokku
+Simply push to Heroku or a Dokku
+
+### Dokku configuration
+
+It's a good idea to keep your secret access tokens outside of the repo. If you use Dokku you can easily add tokens as ENV variables and reference them from the tutter.yaml file.
+
+**Example**
+
+```
+$ dokku config:set tutter TESTING_TOKEN=your_token_here
+```
+
+```yaml
+projects:
+  - name: 'jpettersson/testing'
+    access_token_env_var: 'TESTING_TOKEN'
+    github_site: 'https://github.com'
+    github_api_endpoint: 'https://api.github.com'
+
+    action: 'thanks'
+```
