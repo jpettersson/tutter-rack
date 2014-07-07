@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/jpettersson/tutter.git
-  revision: be19114bb6c5cec1d0fee46e76490f86a3416942
-  branch: branch-problem
+  revision: a8ea0870632b9d0d1c3c3b47d0c43723c0fe0684
+  branch: minor-fixes
   specs:
     tutter (0.0.1)
       octokit (~> 3.2.0)
