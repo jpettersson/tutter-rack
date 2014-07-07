@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/jpettersson/tutter.git
-  revision: 652420266c48749f8cd87f8888b1f80ca4074c51
-  branch: flexible-configuration
+  revision: be19114bb6c5cec1d0fee46e76490f86a3416942
+  branch: branch-problem
   specs:
     tutter (0.0.1)
       octokit (~> 3.2.0)
